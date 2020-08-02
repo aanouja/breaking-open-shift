@@ -1,3 +1,5 @@
+# test clone
+
 function obtainPod() {
 	PODS=$(kubectl get po | grep $1 | awk '{print $1}')
 	echo Found $PODS
